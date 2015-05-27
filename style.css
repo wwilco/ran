@@ -1,13 +1,25 @@
 body {
-  /*padding: 0;*/
+  padding: 0;
   margin: 0;
-  /*text-decoration: none;*/
+  text-decoration: none;
   border: 3px solid purple;
 }
-
+.body-color {
+  background-color: #CCFFCC;
+}
 .container {
   width: auto;
 }
+/*menu bar*/
+.table {
+  text-align:center;
+}
+.table-item {
+  display:inline-block;
+  border:1px solid hotpink;
+  width:10%;
+}
+
 div#playback{
   /*display: block;*/
   margin-left: auto;
@@ -32,10 +44,19 @@ ul, li {
 div.col-sm-3 {
   height: 20%;
   /*width: 25%;*/
-  border: 2px solid green;
-  background-color:grey;
+  border: 2px solid hotpink;
+  background-color:burlywood;
   display: inline;
   padding: 10px;
+}
+
+.modal-contact-body{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.contact-modal {
+  margin-top: 150px;
 }
 .col-xs-12, iframe {
   /*width: 90%;*/
