@@ -28,11 +28,7 @@ button4.addEventListener('click', function(){
 //4, https://player.vimeo.com/video/88841300
 
 // var w = window.innerWidth;
-if (window.innerWidth < 1000) {
-  var player = document.getElementById("playback");
-  player.setAttribute("style", "width: 90%");
-}
-// else {
+// if (window.innerWidth < 1000) {
 //   var player = document.getElementById("playback");
-//   player.setAttribute("style", "width: 50%");
+//   player.setAttribute("style", "width: 90%");
 // }
